@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8AC0AEB3-AFC8-497D-A64E-A839F8B2932E}</ProjectGuid>
+    <ProjectGuid>{FD117052-F2B5-4329-9DF2-4C31491103AA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My61对象组合</RootNamespace>
+    <RootNamespace>My63子类父类关系</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -137,6 +137,9 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
